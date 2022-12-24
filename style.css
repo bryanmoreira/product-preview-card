@@ -9,7 +9,7 @@ body{
     background-color:hsl(30, 38%, 92%)
 }
 
-.container {
+.main {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,4 +107,9 @@ img{
     text-align: center;
     margin-top: 10px;
     font-size: 12px;
+    text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
 }
