@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url(fraunces/frauncessoftwonkopszwght.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:hsl(30, 38%, 92%)
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 40%;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    margin-top: 150px;
+}
+
+img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+}
+
+.perfume-name {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: hsl(212, 21%, 14%);
+}
+
+.perfume{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+}
+
+.prices{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.price-green{
+    font-family: 'Fraunces', sans-serif;
+}
+
+.price-grey{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    vertical-align: baseline;
+}
+
+.price-green{
+    color: hsl(158, 36%, 37%);
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.product-description{
+    justify-content: space-between;
+    padding: 10px;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    height: 40px;
+    width: 60%;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.button .span{
+    justify-content: space-between;
+}
+
+.attribution{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
